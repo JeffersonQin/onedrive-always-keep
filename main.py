@@ -4,7 +4,7 @@ import time
 
 # Get the path and duration from the config
 path = os.environ.get('ONEDRIVE_REFRESH_PATH')
-duration = os.environ.get('ONEDRIVE_REFRESH_DURATION')
+duration = os.environ.get('ONEDRIVE_REFRESH_INTERVAL')
 
 # Walk through the directory and open each file
 while True:
